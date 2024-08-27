@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  font-family: "Overpass", sans-serif;
+}
+
+.thanksCard{
+  animation: Popup 150ms ease-in 1;
+}
+
+@keyframes Popup {
+  from{
+    scale: 0.3;
+  }
+  to{
+    scale: initial;
+  }
+}
